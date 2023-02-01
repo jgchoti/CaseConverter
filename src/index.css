@@ -1,6 +1,12 @@
+.card {
+  background-color: rgba(255, 255, 255, 0.433);
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
 .title {
   margin: 0 auto 0 auto;
-  color: #c8b6e2;
+  color: #78938a;
   font-family: monospace;
   font-size: 80px;
   text-shadow: 2px 2px white;
@@ -20,9 +26,18 @@
 }
 
 body {
-  background: linear-gradient(120deg, #7a86b6 0%, #495c83 100%);
+  background: white;
+  background-image: url("../image/type-writer.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 1100px;
+  background-position-x: center;
 }
-
+a {
+  color: white;
+}
+a:active {
+  color: #525e75;
+}
 button {
   text-align: center;
   font-size: 20px;
@@ -30,9 +45,9 @@ button {
   font-family: monospace;
   padding: 15px 20px;
   border-radius: 20px;
-  box-shadow: 4px 3px 2px 1px deeppink;
-  border: 2px solid deeppink;
-  background: deeppink;
+  box-shadow: 4px 3px 2px 1px #525e75;
+  border: 2px solid #525e75;
+  background: #525e75;
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
@@ -40,7 +55,7 @@ button {
 }
 button:hover {
   background: white;
-  color: deeppink;
+  color: #525e75;
   cursor: pointer;
 }
 textarea {
@@ -53,4 +68,8 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
   font-family: monospace;
+}
+footer {
+  text-align: center;
+  color: #525e75;
 }
